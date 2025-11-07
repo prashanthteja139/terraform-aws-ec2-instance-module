@@ -14,9 +14,10 @@ This Terraform module provisions an **AWS EC2 instance** with customizable param
 
 ## ⚙️ Usage
 
-``hcl
+```hcl
 module "ec2_instance" {
   source = "github.com/prashanthteja139/terraform-aws-ec2-instance-module"
+
 
   ami_id         = "ami-09c813fb71547fc4f"
   instance_type  = "t3.micro"
