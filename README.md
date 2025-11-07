@@ -14,7 +14,7 @@ This Terraform module provisions an **AWS EC2 instance** with customizable param
 
 ## ⚙️ Usage
 
-``hcl
+```hcl
 module "ec2_instance" {
   source = "github.com/prashanthteja139/terraform-aws-ec2-instance-module"
 
