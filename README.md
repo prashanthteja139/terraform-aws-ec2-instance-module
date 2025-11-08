@@ -51,4 +51,4 @@ Integrate this module into your CI/CD workflow using GitHub Actions
 
 🧑‍💻 Author
 Prashanth Teja
-DevOps & DevSecOps Enthusiast | Cloud Automation Learner
+DevOps & DevSecOps Enthusiast
