@@ -12,7 +12,7 @@ This Terraform module provisions an **AWS EC2 instance** with customizable param
 
 ---
 
-## ⚙️ Usage
+### ⚙️ Usage
 
 ```hcl
 module "ec2_instance" {
