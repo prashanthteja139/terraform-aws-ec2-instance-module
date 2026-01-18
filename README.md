@@ -2,7 +2,6 @@
 
 This Terraform module provisions an **AWS EC2 instance** with customizable parameters such as AMI ID, instance type, and security group IDs. It’s designed for DevOps automation labs and real-time infrastructure provisioning in AWS.
 
----
 
 ## 🧩 Features
 - Create lightweight EC2 instances using modular Terraform code  
@@ -10,11 +9,10 @@ This Terraform module provisions an **AWS EC2 instance** with customizable param
 - Attaches existing Security Groups  
 - Outputs instance details for downstream configurations  
 
----
+
 
 ### ⚙️ Usage
-
-```hcl
+hcl
 module "ec2_instance" {
   source = "github.com/prashanthteja139/terraform-aws-ec2-instance-module"
 
