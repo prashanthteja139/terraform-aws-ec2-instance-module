@@ -1,5 +1,6 @@
 variable "ami_id" {
     type = string
+#replace with your desired ami id or use default
     default = "ami-09c813fb71547fc4f"
     description = "AMI ID of the EC2 instance"
 }
