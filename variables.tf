@@ -9,7 +9,7 @@ variable "instance_type" {
     default = "t3.micro"
     type = string
     description = "Instance size"
-
+#setting limits for the instance use to minimize cost 
     validation {
         condition     = contains(["t3.micro", "t3.small", "t3.medium"], var.instance_type)
         error_message = "Valid values for instance_type are: t3.micro, t3.small, t3.medium"
